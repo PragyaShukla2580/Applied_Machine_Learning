@@ -21,6 +21,10 @@ dataset = joblib.load('./joblib/dataset.joblib')
 scaled_data = scaler.fit_transform(dataset)
 
 def score():
+    """
+                    Description
+                    ----------
+                    This function predicts the stock price and save it as png."""
 
     print(rmse)
 

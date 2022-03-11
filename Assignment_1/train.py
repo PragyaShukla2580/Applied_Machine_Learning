@@ -68,9 +68,9 @@ def training():
 
     print(rmse)
 
-    joblib.dump(rmse, "./Results/rmse.joblib")
-    joblib.dump(predictions, "./Results/predictions.joblib")
-    joblib.dump(y_test, "./Results/y_test.joblib")
+    joblib.dump(rmse, "Assignment_1/Results/rmse.joblib")
+    joblib.dump(predictions, "Assignment_1/Results/predictions.joblib")
+    joblib.dump(y_test, "Assignment_1/Results/y_test.joblib")
 
 
 

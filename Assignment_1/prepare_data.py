@@ -21,11 +21,11 @@ def prepare(from_date,to_date):
 
     # print("The data looks like this: ")
     # print(data.head())
-    dfi.export(data.head(), './prepare_data/data_head.png')
+    dfi.export(data.head(), 'prepare_data/data_head.png')
 
     # print("The length of the data is:")
     # print(len(data))
-    with open('./prepare_data/length_of_dataset.txt', 'w') as f:
+    with open('prepare_data/length_of_dataset.txt', 'w') as f:
         f.write("Length of the dataset: "+ str(len(data)))
 
     # print("Columns in the dataset are:")
@@ -34,7 +34,7 @@ def prepare(from_date,to_date):
     df.to_csv('./prepare_data/data_columns.csv')
 
     # print(data.describe())
-    with open('./prepare_data/columns_description.txt', 'w') as f:
+    with open('prepare_data/columns_description.txt', 'w') as f:
         f.write(str(data.describe))
 
     # print("Let's see if there are any null values")

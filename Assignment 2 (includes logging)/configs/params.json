@@ -1,0 +1,12 @@
+{
+    "model_configs_train":{
+      "from_date" : "2010-01-01",
+      "to_date" : "2021-01-01",
+      "hidden_size1": "128",
+      "hidden_size2": "64",
+      "num_layers": "25",
+      "num_epochs": "2",
+      "batch_size" : "2"
+
+  }
+}
